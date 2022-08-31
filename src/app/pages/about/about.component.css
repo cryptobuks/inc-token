@@ -1,0 +1,62 @@
+::ng-deep .customized-timeline .check-marker {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #607D8B;
+}
+
+::ng-deep .customized-timeline .check-marker .pi {
+    font-size: .65rem;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.members .member {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 192px;
+}
+
+.members .member > img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.members .member .name {
+    margin-top: 20px;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.members .member .post {
+    margin-top: 15px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+
+.social-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .members {
+        justify-content: center;
+    }
+}

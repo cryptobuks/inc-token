@@ -1,0 +1,28 @@
+<div class="content-wrapper common-cnt legal-cnt">
+
+    <div class="block font-med">
+        <span class="title">{{ 'legal_privacy' | translate }}</span>
+
+        <!--<p-selectButton [options]="options" optionLabel="name" optionValue="path" (onOptionClick)="onOptionClick($event)">
+        </p-selectButton>-->
+
+        <p-accordion [multiple]="true">
+            <p-accordionTab header="{{ 'terms_of_service' | translate }}" [selected]="true">
+                <app-terms></app-terms>
+            </p-accordionTab>
+            <p-accordionTab header="{{ 'privacy_policy' | translate }}" [selected]="true">
+                <app-privacy></app-privacy>
+            </p-accordionTab>
+        </p-accordion>
+
+        <!--<mat-tab-group mat-align-tabs="center">
+            <mat-tab label="{{ 'terms_of_service' | translate }}">
+                <app-terms></app-terms>
+            </mat-tab>
+            <mat-tab label="{{ 'privacy_policy' | translate }}">
+                <app-privacy></app-privacy>
+            </mat-tab>
+        </mat-tab-group>-->
+    </div>
+
+</div>

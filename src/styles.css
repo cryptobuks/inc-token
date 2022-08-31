@@ -1,0 +1,348 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0;
+}*/
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    cursor: pointer;
+    /*color: rgba(0, 0, 0, 0.65);*/
+    color: rgb(255 255 255 / 65%);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.flex-spacer {
+    flex: 1 1 auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.mat-icon {
+    vertical-align: middle !important;
+}
+
+.mat-dialog-container {
+    padding: 0 !important;
+}
+
+/* default snack-bar */
+
+.mat-snack-bar-container {
+    color: black;
+    background: white;
+}
+
+/* Al usar mat-icon-button, algunos iconos aparecen demasiado pequeños */
+
+.fixed-icon-button {
+    width: 48px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+}
+
+.fixed-icon-button .mat-icon {
+    font-size: 32px !important;
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+}
+
+.mat-menu-panel {
+    /* Valores por defecto 
+    min-width: 112px;
+    max-width: 280px;*/
+    max-width: 300px !important;
+}
+
+.done-menu .mat-menu-item {
+    position: relative;
+    padding-right: 40px !important;
+}
+
+.done-menu .done-icon {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    margin-right: 0 !important;
+}
+
+.generic-dialog {
+    min-width: 480px;
+}
+
+.generic-dialog .mat-dialog-title {
+    padding: 1.125rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.generic-dialog .mat-dialog-content {
+    padding: 0 1.25rem 25rem 25rem !important;
+    margin: 0;
+}
+
+.generic-dialog .mat-dialog-actions {
+    justify-content: center;
+    padding: .625rem;
+    min-height: unset;
+    margin: 0;
+}
+
+.alert-info {
+    color: #0c5460 !important;
+    background-color: #d1ecf1 !important;
+    border-color: #bee5eb;
+}
+
+.alert-warn {
+    color: #856404 !important;
+    background-color: #fff3cd !important;
+    border-color: #ffeeba;
+}
+
+.alert-error {
+    color: #721c24 !important;
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb;
+}
+
+.small-screen {
+    display: none !important;
+}
+
+.large-screen {
+    display: block !important;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: calc(1.5rem + env(safe-area-inset-left, 0));
+    padding-right: calc(1.5rem + env(safe-area-inset-right, 0));
+    text-align: start;
+}
+
+.common-cnt {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.block:not(:first-child) {
+    margin-top: 6.25rem;
+}
+
+.font-big .title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+    display: block;
+    color: var(--color-primary);
+}
+
+.font-big .description {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    display: block;
+}
+
+.font-med .title {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: var(--color-primary);
+}
+
+.font-med .description {
+    display: block;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.font-sml .title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+}
+
+.font-sml .description {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.font-big .title,
+.font-med .title,
+.font-sml .title {
+    margin-bottom: 2.25rem;
+}
+
+.block-divided {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-divided .text {
+    flex: 1 1 100%;
+    margin: 1.25rem;
+}
+
+.block-divided .image {
+    flex: 1 1 100%;
+    text-align: center;
+    margin: 1.25rem;
+}
+
+.block-fluid {
+    flex-direction: row;
+    display: flex;
+    place-content: flex-start space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.block-feature {
+    flex-direction: column;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    max-width: 33%;
+    padding: 2.5rem;
+}
+
+.block-feature > .mat-icon {
+    font-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #b7b7b7;
+}
+
+.block-feature > .title {
+    margin: 1rem 0 1rem !important;
+}
+
+.block-feature > .description {
+    margin-top: 0 !important;
+}
+
+.line-limit {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pi-telegram:before {
+    content:url("assets/svg/telegram.svg");
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+    .small-screen {
+        display: block !important;
+    }
+    .large-screen {
+        display: none !important;
+    }
+    .screen-card {
+        width: calc(100% - 4rem);
+    }
+    .generic-dialog {
+        min-width: 80vw;
+    }
+    .block-divided {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    .block-divided .image>img {
+        max-width: 100%;
+    }
+    .block-feature {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .block-divided .text {
+        margin: 1.25rem 0;
+    }
+    .block-feature {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.doc-comp {
+    margin-top: 6.25rem;
+}
+
+.doc-comp .doc-menu {
+    min-width: 280px;
+}
+
+.doc-comp .doc-menu p-panelmenu {
+    width: 100%;
+}
+
+.doc-comp .doc-content {
+    min-width: calc(100% - 320px);
+    padding-left: 40px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 767px) {
+    .doc-comp .doc-menu {
+        min-width: 100%;
+    }
+    .doc-comp .doc-content {
+        min-width: 100%;
+        padding-top: 40px;
+    }
+}

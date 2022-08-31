@@ -1,0 +1,63 @@
+<div class="content-wrapper common-cnt">
+
+    <div class="block font-med">
+        <span class="title">{{ 'who_we_are' | translate }}</span>
+        <span class="description">{{ 'who_we_are_desc' | translate }}</span>
+    </div>
+
+    <div class="block font-med">
+        <span class="title">{{ 'what_our_purpose' | translate }}</span>
+        <span class="description">{{ 'what_our_purpose_desc' | translate }}</span>
+    </div>
+
+    <div class="block font-med">
+        <span class="title">{{ 'responsible_members' | translate }}</span>
+        
+        <div class="members">
+            <div *ngFor="let member of members; let i = index" class="member" (click)="displayMember(i)">
+                <img alt="Member photo" [src]="member.photo" />
+                <span class="name">{{ member.name }}</span>
+                <span class="post">{{ member.post }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="block font-med">
+        <span class="title">{{ 'roadmap' | translate }}</span>
+
+        <div class="block-content center">
+            <p-timeline [value]="roadmapSteps" align="alternate" styleClass="customized-timeline">
+                <ng-template pTemplate="marker" let-event>
+                    <span *ngIf="event.completed" class="custom-marker check-marker">
+                        <i class="pi pi-check"></i>
+                    </span>
+                    <span *ngIf="!event.completed" class="p-timeline-event-marker">
+                    </span>
+                </ng-template>
+                <ng-template pTemplate="content" let-event>
+                    <p-card [header]="event.title" [subheader]="event.subject">
+                        <p *ngFor="let text of event.content">
+                            <span [innerHTML]="text"></span>
+                        </p>
+                        <!--<button pButton label="Read more" class="p-button-text"></button>-->
+                    </p-card>
+                </ng-template>
+            </p-timeline>
+        </div>
+    </div>
+
+</div>
+
+<p-dialog *ngIf="selectedMember" [header]="selectedMember.name" [(visible)]="selectedMember" 
+[style]="{width: '75vw', maxWidth: '400px'}"
+[modal]="true" [draggable]="false" [resizable]="false" [dismissableMask]="true">
+
+    <div class="social-cnt">
+        <button *ngFor="let s of selectedMember.social" mat-stroked-button aria-label="Social" class="social-button"
+            (click)="displayUrl(s.url)">
+            <i class="{{ s.logo }}"></i>
+            <span>{{ s.name }}</span>
+        </button>
+    </div>
+        
+</p-dialog>

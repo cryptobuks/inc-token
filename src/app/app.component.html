@@ -1,0 +1,126 @@
+<mat-drawer-container class="container">
+    <mat-toolbar #toolbar class="header">
+        <a href="/" class="logo">
+            <img alt="Logo" src="assets/img/logo.png" />
+            <span class="line-limit title">{{ 'app_name' | translate }}</span>
+        </a>
+
+        <span class="flex-spacer"></span>
+
+        <a mat-button href="/" class="large-screen {{isCurrentView('/')? 'focused-button': ''}}">
+            {{ 'home' | translate }}
+        </a>
+
+        <a mat-button href="/about" class="large-screen {{isCurrentView('/about')? 'focused-button': ''}}">
+            {{ 'about' | translate }}
+        </a>
+
+        <a mat-button href="/faq" class="large-screen {{isCurrentView('/faq')? 'focused-button': ''}}">
+            {{ 'faq' | translate }}
+        </a>
+
+        <a mat-button href="/community" class="large-screen {{isCurrentView('/community')? 'focused-button': ''}}">
+            {{ 'community' | translate }}
+        </a>
+
+        <span class="flex-spacer"></span>
+
+        <a mat-button href="https://survey.inctoken.org" class="large-screen outstanding-button" target="_blank">
+            {{ 'launch_app' | translate }}
+        </a>
+
+        <!--<a mat-button (click)="addToken()" class="large-screen">
+            <mat-icon style="height: 100%;" svgIcon="metamask"></mat-icon>
+        </a>-->
+
+        <button mat-icon-button aria-label="Menu" (click)="drawer.toggle()" class="small-screen">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <div class="content" [@fadeAnim]="fadeState" (@fadeAnim.done)="onFadeDone()">
+        <router-outlet></router-outlet>
+    </div>
+
+    <div class="footer">
+        <mat-menu #langMenu="matMenu" class="done-menu">
+            <button *ngFor="let lang of langs" mat-menu-item (click)="setLang(lang)">
+                <span>{{lang.name}}</span>
+                <mat-icon *ngIf="lang.code == selectedLang.code" class="done-icon">check_circle</mat-icon>
+            </button>
+        </mat-menu>
+
+        <div class="footer-actions">
+            <button mat-stroked-button aria-label="Language" [matMenuTriggerFor]="langMenu">
+                <mat-icon>language</mat-icon> {{ selectedLang.name }} <mat-icon>arrow_drop_down</mat-icon>
+            </button>
+        </div>
+
+        <div class="footer-grid">
+            <div class="grid-item">
+                <h3>{{ 'sitemap' | translate }}</h3>
+                <a href="/">{{ 'home' | translate }}</a>
+                <a href="/about">{{ 'about' | translate }}</a>
+                <a href="/faq">{{ 'faq' | translate }}</a>
+                <a href="/community">{{ 'community' | translate }}</a>
+            </div>
+
+            <div class="grid-item">
+                <h3>{{ 'terms_and_policies' | translate }}</h3>
+                <a href="/terms">{{ 'terms_of_service' | translate }}</a>
+                <a href="/privacy#cookies">{{ 'cookie_policy' | translate }}</a>
+                <a href="/privacy">{{ 'privacy_policy' | translate }}</a>
+            </div>
+
+            <div class="grid-item">
+                <h3>{{ 'community' | translate }}</h3>
+                <a href="https://twitter.com/incentivetoken" target="_blank"><i class="pi pi-twitter"></i> Twitter</a>
+                <a href="https://discord.gg/fFzDHMKhcN" target="_blank"><i class="pi pi-discord"></i> Discord</a>
+                <a href="https://github.com/inctoken" target="_blank"><i class="pi pi-github"></i> GitHub</a>
+            </div>
+
+            <!--<div class="grid-item newsletter">
+                <iframe src="https://inctoken.substack.com/embed" width="320" height="320" frameborder="0" scrolling="no"></iframe>
+            </div>-->
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="copyright-cnt">
+            <span>
+                {{ 'copyright' | translate }}
+            </span>
+
+            <button mat-icon-button class="fixed-icon-button top-btn" aria-label="Arrow up icon"
+                (click)="scrollToTop()">
+                <mat-icon>arrow_circle_up</mat-icon>
+            </button>
+        </div>
+    </div>
+
+    <mat-drawer #drawer class="sidenav" mode="over" position="end">
+        <a mat-button (click)="changeRoute('/')" class="{{isCurrentView('/')? 'focused-button': ''}}">
+            {{ 'home' | translate }}
+        </a>
+
+        <a mat-button (click)="changeRoute('/about')" class="{{isCurrentView('/about')? 'focused-button': ''}}">
+            {{ 'about' | translate }}
+        </a>
+        
+        <a mat-button (click)="changeRoute('/faq')" class="{{isCurrentView('/faq')? 'focused-button': ''}}">
+            {{ 'faq' | translate }}
+        </a>
+
+        <a mat-button (click)="changeRoute('/community')" class="{{isCurrentView('/community')? 'focused-button': ''}}">
+            {{ 'community' | translate }}
+        </a>
+
+        <a mat-button href="https://survey.inctoken.org" class="outstanding-button" target="_blank">
+            {{ 'launch_app' | translate }}
+        </a>
+
+        <!--<a mat-button (click)="addToken()">
+            <mat-icon style="height: 100%; margin-right: 20px;" svgIcon="metamask"></mat-icon> <span>MetaMask</span>
+        </a>-->
+    </mat-drawer>
+</mat-drawer-container>

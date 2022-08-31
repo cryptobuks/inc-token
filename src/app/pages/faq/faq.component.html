@@ -1,0 +1,30 @@
+<div class="content-wrapper common-cnt">
+
+    <div class="block font-med">
+        <span class="title">{{ 'faq' | translate }}</span>
+
+        <div fxLayout="row wrap">
+            <div class="faq-menu" fxLayoutAlign="left top">
+                <p-panelMenu [model]="items" [style]="{'width':'100%'}"></p-panelMenu>
+            </div>
+    
+            <div class="faq-content" fxLayoutAlign="left top">
+                <div #responseCnt>
+                    <h1>{{ getLabel() }}</h1>
+    
+                    <p *ngFor="let text of getContent()">
+                        <span [innerHTML]="text"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block font-sml center">
+        <span class="title">{{ 'have_question_not_answered' | translate }}</span>
+        <span class="description">
+            {{ 'for_official_answers_join_' | translate }} <a class="link" href="https://discord.gg/fFzDHMKhcN" target="_blank">{{ 'inc_community' | translate }}</a>
+        </span>
+    </div>
+
+</div>

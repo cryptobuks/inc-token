@@ -1,0 +1,21 @@
+::ng-deep .p-divider.p-divider-horizontal {
+    margin: 3.75rem 0;
+}
+
+.font-big img {
+    padding: 1rem;
+}
+
+.launch-button {
+  line-height: 3rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background: var(--color-logo);
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+    .font-big img {
+        margin-top: 1.5rem;
+    }
+}

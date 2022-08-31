@@ -1,0 +1,137 @@
+<div class="content-wrapper common-cnt">
+
+    <div class="block font-big">
+        <span class="title">{{ 'home_title' | translate }}</span>
+        <span class="description">{{ 'home_desc_1' | translate }}</span>
+        <span class="description">{{ 'home_desc_2' | translate }}</span>
+        <img alt="Representation" src="assets/img/representation_dark.png" />
+    </div>
+
+    <div class="block font-med center">
+        <span class="title">{{ 'what_is_inc' | translate }}</span>
+        <span class="description">{{ 'what_is_inc_desc_1' | translate }} {{ 'what_is_inc_desc_2' | translate }}</span>
+    </div>
+
+    <div class="block font-med center">
+        <span class="title">{{ 'why_inc' | translate }}</span>
+        <span class="description">{{ 'why_inc_desc' | translate }}</span>
+    </div>
+
+    <div class="block font-med center">
+        <span class="title">{{ 'benefits_of_inc' | translate }}</span>
+
+        <div class="block-fluid">
+            <div class="font-sml block-feature">
+                <mat-icon>bolt</mat-icon>
+                <span class="title">{{ 'benefit_fast_title' | translate }}</span>
+                <span class="description">{{ 'benefit_fast_desc' | translate }}</span>
+            </div>
+
+            <div class="font-sml block-feature">
+                <mat-icon>lock</mat-icon>
+                <span class="title">{{ 'benefit_secure_title' | translate }}</span>
+                <span class="description">{{ 'benefit_secure_desc' | translate }}</span>
+            </div>
+
+            <div class="font-sml block-feature">
+                <mat-icon>all_inclusive</mat-icon>
+                <span class="title">{{ 'benefit_seamless_title' | translate }}</span>
+                <span class="description">{{ 'benefit_seamless_desc' | translate }}</span>
+            </div>
+
+            <div class="font-sml block-feature">
+                <mat-icon>public</mat-icon>
+                <span class="title">{{ 'benefit_open_title' | translate }}</span>
+                <span class="description">{{ 'benefit_open_desc' | translate }}</span>
+            </div>
+
+            <div class="font-sml block-feature">
+                <mat-icon>person_search</mat-icon>
+                <span class="title">{{ 'benefit_transparent_title' | translate }}</span>
+                <span class="description">{{ 'benefit_transparent_desc' | translate }}</span>
+            </div>
+
+            <div class="font-sml block-feature">
+                <mat-icon svgIcon="life_signal"></mat-icon>
+                <span class="title">{{ 'benefit_non_inflationary_title' | translate }}</span>
+                <span class="description">{{ 'benefit_non_inflationary_desc' | translate }}</span>
+            </div>
+        </div>
+    </div>
+
+    <p-divider></p-divider>
+
+    <div class="block font-med">
+        <span class="title center">{{ 'for_users' | translate }}</span>
+
+        <div class="block-divided">
+            <div class="image">
+                <img alt="Users" src="assets/img/users.png" />
+            </div>
+
+            <div class="text">
+                <span class="description">{{ 'for_users_desc' | translate }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="block font-med">
+        <span class="title center">{{ 'for_companies' | translate }}</span>
+
+        <div class="block-divided">
+            <div class="image">
+                <img alt="Companies" src="assets/img/companies.png" />
+            </div>
+
+            <div class="text">
+                <span class="description">{{ 'for_companies_desc' | translate }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="block font-med">
+        <span class="title center">{{ 'our_vision_for_future' | translate }}</span>
+
+        <div class="block-divided">
+            <div class="image">
+                <img alt="Future vision" src="assets/img/future_vision_dark.png" />
+            </div>
+
+            <div class="text">
+                <span class="description">{{ 'our_vision_for_future_desc_1' | translate }}</span>
+                <span class="description">{{ 'our_vision_for_future_desc_2' | translate }}</span>
+                <span class="description">{{ 'our_vision_for_future_desc_3' | translate }}</span>
+            </div>
+        </div>
+    </div>
+
+    <p-divider></p-divider>
+
+    <div class="block font-med center">
+        <span class="title">{{ 'case_of_use' | translate }}</span>
+
+        <div class="block-content">
+            <p-timeline [value]="useCaseSteps" align="alternate" styleClass="customized-timeline">
+                <ng-template pTemplate="marker" let-event>
+                    <span class="custom-marker p-shadow-2" [style.backgroundColor]="event.color">
+                        <i [ngClass]="event.icon"></i>
+                    </span>
+                </ng-template>
+                <ng-template pTemplate="content" let-event>
+                    <p-card [header]="event.title" [subheader]="event.subject">
+                        <p *ngFor="let text of event.content">
+                            <span [innerHTML]="text"></span>
+                        </p>
+                    </p-card>
+                </ng-template>
+            </p-timeline>
+        </div>
+    </div>
+
+    <div class="block center">
+        <a mat-button href="https://survey.inctoken.org" class="launch-button" target="_blank">
+            {{ 'launch_app' | translate }} <mat-icon>open_in_new</mat-icon>
+        </a>
+    </div>
+
+</div>

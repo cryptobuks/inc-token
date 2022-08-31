@@ -1,0 +1,203 @@
+{
+    "app_name": "Incentive (INC)",
+    "home": "Home",
+    "about": "About",
+    "documentation": "Documentation",
+    "community": "Community",
+    "faq": "FAQ",
+    "sitemap": "Sitemap",
+    "terms_and_policies": "Terms and policies",
+    "terms_of_service": "Terms of Service",
+    "cookie_policy": "Cookie Policy",
+    "privacy_policy": "Privacy Policy",
+    "legal_privacy": "Legal & Privacy",
+    "copyright": "© 2022 Incentive Token LLC. All rights reserved.",
+    "home_title": "We renew the incentives of the 21st century.",
+    "home_desc_1": "INC is an easy, safe and innovative way to incentivize users.",
+    "home_desc_2": "The INC token combines the qualities of the Polygon blockchain with a cutting-edge technology stack, making incentives powerful resources for content creators and users alike.",
+    "what_is_inc": "What Is Incentive (INC)?",
+    "what_is_inc_desc_1": "INC is an asset specifically developed to innovate survey and event incentives.",
+    "what_is_inc_desc_2": "INC-based protocols allow the exchange of tokens between content creators and participants in complete security and without the need for intermediaries.",
+    "why_inc": "Why INC?",
+    "why_inc_desc": "INC is much more attractive to users, thanks to the decentralization, internationalization, automation, and security offered by INC-based applications.",
+    "for_users": "For Users",
+    "for_users_desc": "Users will be able to access the apps to earn INC tokens by filling out questionnaires or use their tokens to participate in events. INC tokens can be sent and received using any ERC20 compliant wallet.",
+    "for_companies": "For Companies",
+    "for_companies_desc": "Companies will be able to retain their users and get new ones, creating surveys and events and promoting products. Companies can also use INC tokens to motivate their workers or collaborators.",
+    "benefits_of_inc": "The benefits of INC",
+    "benefit_fast_title": "Fast & Better",
+    "benefit_fast_desc": "INC is built on top of Polygon, which addresses the limitations of Ethereum such as transaction speed, throughput, and gas fees.",
+    "benefit_secure_title": "Secure",
+    "benefit_secure_desc": "The immutability of transactions ensures security, however ownership of INC tokens is completely anonymous.",
+    "benefit_seamless_title": "Seamless",
+    "benefit_seamless_desc": "INC is an ERC-20 token. The Polygon blockchain makes processes faster and easier.",
+    "benefit_open_title": "Open",
+    "benefit_open_desc": "Users, incorporations, and developers: everyone can harness INC’s power.",
+    "benefit_transparent_title": "Transparent",
+    "benefit_transparent_desc": "Transactions are decentralized, publicly recorded, and trackable.",
+    "benefit_non_inflationary_title": "Non-inflationary",
+    "benefit_non_inflationary_desc": "Fixed supply of the tokens that reduces volatility and improves quality.",
+    "who_we_are": "Who we are?",
+    "who_we_are_desc": "We are a group of developers with more than 10 years of experience in blockchain technology and enterprise application development.",
+    "what_our_purpose": "What is our purpose?",
+    "what_our_purpose_desc": "We started this project with the purpose of providing an innovative way to incentivize users without limiting or centralizing usage.",
+    "our_vision_for_future": "Our vision for the future",
+    "our_vision_for_future_desc_1": "With a well-defined roadmap and a team that has a proven track record in delivering blockchain solutions, we are on the way to offer other functionalities based on the INC Token.",
+    "our_vision_for_future_desc_2": "Our current goal is to advance our decentralized application to allow event generation.",
+    "our_vision_for_future_desc_3": "We also want to offer a free and innovative solution for exchanging tokens.",
+    "case_of_use": "Case of use",
+    "create_survey_title": "Create survey",
+    "create_survey_subject": "Carried out by the company",
+    "create_survey_content": [
+        "Through our application or other decentralized applications, the organization creates a questionnaire asking the appropriate questions to compile opinions and promote the brand.",
+        "In addition, the company must indicate the following information:",
+        "&bull; Total budget of INC tokens",
+        "&bull; Reward amount for participation",
+        "&bull; Start and end dates",
+        "The survey may end before reaching the end date if the established budget is exhausted."
+    ],
+    "post_survey_title": "Post survey",
+    "post_survey_subject": "Carried out by the company",
+    "post_survey_content": [
+        "Once the necessary data has been entered, the company publishes the survey. During this step, the application is in charge of listing the survey and notifying potential users according to the sector and the parameters entered.",
+        "The company, for its part, can also publish the survey outside the platform and notify its users."
+    ],
+    "user_participation_title": "Participate in the survey",
+    "user_participation_subject": "Carried out by the user",
+    "user_participation_content": [
+        "Users who receive the survey or find it by searching the platform, as long as they fit within the parameters established by the company, can participate in the survey.",
+        "Before starting the survey, users can see the details and the amount of reward."
+    ],
+    "receive_reward_title": "Receive reward",
+    "receive_reward_subject": "Carried out by dApps",
+    "receive_reward_content": [
+        "Immediately after completing the survey and validating the entered data, the user receives their INC tokens in their wallet."
+    ],
+    "survey_results_title": "Survey results",
+    "survey_results_subject": "Carried out by dApps",
+    "survey_results_content": [
+        "The company can follow the progress of the survey at all times and see the shares and the quantities consumed.",
+        "If the survey has ended because the end date has been reached, the company will still have the untransferred INC tokens.",
+        "The surveys are public, so anyone at any time can check the results."
+    ],
+    "roadmap": "Roadmap",
+    "target_1_title": "Semester 1 of 2022",
+    "target_1_subject": "Survey Manager",
+    "target_1_content": [
+        "So far we have developed a fantastic survey manager where on the one hand companies can promote themselves and on the other hand users can earn tokens by participating in available surveys.",
+        "Please take a look at <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>."
+    ],
+    "target_2_title": "Semester 2 of 2022",
+    "target_2_subject": "Marketing & Visibility",
+    "target_2_content": [
+        "During this time we will focus on giving more visibility to the INC token, strengthening the community and raising funds.",
+        "We will also start the process to list the INC token on the most popular centralized and decentralized exchanges."
+    ],
+    "target_3_title": "Quarter 1 of 2023",
+    "target_3_subject": "Event Generator 25%",
+    "target_3_content": [
+        "<h2>Technical specifications</h2>",
+        "During this phase we will write the technical specifications and thoroughly study our plan.",
+        "Our idea is to create a secure and robust event generator on top of the Polygon blockchains.",
+        "The organizer will be able to determine various types of tickets and sell them in the form of non-fungible tokens.",
+        "The participant will have a QR code that represents the ticket and will allow them to access the event.",
+        "Our API will allow verification of QR codes.",
+        "We can't reveal any more details until development is complete, but we will indicate our progress on <a target='_blanck' href='https://event.inctoken.org'>event.inctoken.org</a>."
+    ],
+    "target_4_title": "Quarter 2 of 2023",
+    "target_4_subject": "Event Generator 50%",
+    "target_4_content": [
+        "<h2>Implement contracts</h2>",
+        "This phase will be dedicated to the implementation of smart contracts following the steps defined in the previous phase.",
+        "Following the good practices of Solidity, we will create a readable, robust and scalable code."
+    ],
+    "target_5_title": "Quarter 3 of 2023",
+    "target_5_subject": "Event Generator 75%",
+    "target_5_content": [
+        "<h2>Unit & integration tests</h2>",
+        "Tests of 2 types will be carried out.",
+        "&bull; Unit tests that focus on each function in isolation.",
+        "&bull; Integration tests that focus on ensuring that multiple pieces of code work together as expected.",
+        "Blockchain software requires more emphasis on testing, due to immutability."
+    ],
+    "target_6_title": "Quarter 4 of 2023",
+    "target_6_subject": "Event Generator 100%",
+    "target_6_content": [
+        "<h2>Develop the client</h2>",
+        "We will develop a responsive frontend that offers a satisfying user experience.",
+        "The client will have the following characteristics:",
+        "&bull; Polygon / ERC-20 Wallet Connection",
+        "&bull; Exchange panel where token exchange operations will take place.",
+        "&bull; Liquidity panel that allows a provider to contribute liquidity to the system.",
+        "&bull; Graph view to check prices and turnover.",
+        "&bull; Link to access the documentation."
+    ],
+    "target_7_title": "Coming soon",
+    "target_7_subject": "Decentralized Exchange",
+    "target_7_content": [
+        "As soon as we complete the stated objectives, we will get to work designing a decentralized exchange that will allow the liquidity provider to choose between various rates."
+    ],
+    "community_resources": "Community resources",
+    "community_resources_desc": "Join the INC community to connect with other network participants, get answers about the platform, and stay up-to-date with new developments.",
+    "res_discord_desc": "INC official chat server is hosted on Discord.",
+    "res_discord_link": "Join our server",
+    "res_twitter_desc": "Stay up-to-date with INC announcements on Twitter.",
+    "res_twitter_link": "Follow us on Twitter",
+    "res_github_desc": "Explore the source code of the INC contract on GitHub.",
+    "res_github_link": "Take a look at the code",
+    "have_question_not_answered": "Have a question not answered here?",
+    "for_official_answers_join_": "For official answers and support, join the",
+    "inc_community": "INC community",
+    "faq_question_1": "What is INC?",
+    "faq_response_1": [
+        "INC is an asset specifically developed to innovate survey and event incentives.",
+        "INC-based protocols allow the exchange of tokens between content creators and participants in complete security and without the need for intermediaries."
+    ],
+    "faq_question_2": "What is the symbol for INC?",
+    "faq_response_2": [
+        "The INC token symbol is <b>INC</b>."
+    ],
+    "faq_question_3": "What is the name of INC?",
+    "faq_response_3": [
+        "The name of the INC token is <b>Incentive</b>."
+    ],
+    "faq_question_4": "What is the INC contract address?",
+    "faq_response_4": [
+        "The official address of the INC contract is:",
+        "<i>{{val1}}</i><br/><br/>",
+        "<b>There is no other officially endorsed implementation of the INC contract.</b>",
+        "Beware of scammers who may try to convince you to accept alternative INC tokens, which are probably worthless and cannot be used with applications such as INC-based. For your safety, make sure you are only interacting with the official INC token contract and verify your transactions on https://polygonscan.com."
+    ],
+    "faq_question_5": "How does INC work?",
+    "faq_response_5": [
+        "The most common use of the INC token is as follows:",
+        "1. Companies create surveys and assign a total budget and a reward for participation.",
+        "2. INC-based dApps list surveys and allow participation based on the parameters of each survey.",
+        "3. Users participate in the surveys and in return receive INC tokens directly to their wallet.",
+        "However, not only companies can create events and surveys, anyone can create content aimed at everyone or only certain users."
+    ],
+    "faq_question_6": "What wallets are INC compliant?",
+    "faq_response_6": [
+        "INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. Using MATIC to pay for gas, INC tokens can be sent and received using any ERC20 compliant wallet."
+    ],
+    "faq_question_7": "Is INC an ERC20 token?",
+    "faq_response_7": [
+        "Yes, INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. INC tokens can be sent and received using any ERC20 compliant wallet."
+    ],
+    "faq_question_8": "How can I get INC?",
+    "faq_response_8": [
+        "In our DApp, in the Swap tab, you can exchange MATIC for INC tokens."
+    ],
+    "faq_question_9": "Where can I trade INC?",
+    "faq_response_9": [
+        "Currently, the INC token cannot be exchanged for other cryptocurrencies. We are doing our best to make it possible to trade on various digital asset exchanges soon."
+    ],
+    "sorry_we_havent_found_anything": "Sorry, we haven't found anything :(",
+    "introduction": "Introduction",
+    "api_reference": "API reference",
+    "launch_app": "Launch App",
+    "responsible_members": "Responsible members",
+    "member_1_post": "Software Engineer",
+    "member_2_post": "Software Architect",
+    "member_3_post": "Commercial Advisor"
+}

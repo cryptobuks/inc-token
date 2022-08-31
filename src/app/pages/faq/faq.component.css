@@ -1,0 +1,38 @@
+.faq-menu {
+    min-width: 280px;
+}
+
+.faq-menu p-panelmenu {
+    width: 100%;
+}
+
+::ng-deep .faq-menu .p-panelmenu-header-link {
+    font-size: 1.1rem;
+}
+
+.faq-content {
+    width: calc(100% - 400px);
+    padding-left: 40px;
+}
+
+.faq-content h1 {
+    font-weight: 500;
+}
+
+.faq-content span {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 767px) {
+    .faq-menu {
+        min-width: 100%;
+    }
+    .faq-content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
