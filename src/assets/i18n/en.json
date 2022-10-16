@@ -221,15 +221,15 @@
     "total_inc": "Total INC",
     "description": "Description",
     "tokenomic_1": [
-        "DAO Tokens", "30%", "30,000,000,000", "Proposals will be created in the governance protocol to allocate a part to the initial offer and others to the listing on exchanges."
+        "30", "DAO Tokens", "Proposals will be created in the governance protocol to allocate a part to the initial offer and others to the listing on exchanges."
     ],
     "tokenomic_2": [
-        "DAO Locked Tokens", "45%", "45,000,000,000", "Unlocking is progressive and is completed in 3 years."
+        "45", "DAO Locked Tokens", "Unlocking is progressive and is completed in 3 years."
     ],
     "tokenomic_3": [
-        "Contributors & Marketing", "25%", "25,000,000,000", "For the founding team, collaborators and marketing."
+        "25", "Contributors & Marketing", "For the founding team, collaborators and marketing."
     ],
     "tokenomic_4": [
-        "Total Supply", "100%", "100,000,000,000", ""
+        "100", "Total Supply", ""
     ]
 }

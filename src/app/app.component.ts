@@ -9,7 +9,6 @@ import { DomSanitizer, Title } from '@angular/platform-browser';
 import { MatToolbar } from '@angular/material/toolbar';
 import { filter } from 'rxjs/operators';
 import { MatIconRegistry } from '@angular/material/icon';
-import { WatchAssetService } from './services/watch-asset.service';
 import { fadeAnim } from './anims/fade.animation';
 
 @Component({
@@ -40,8 +39,7 @@ export class AppComponent implements OnInit {
     private router: Router,
     @Inject(LOCALE_ID) defLocale: string,
     private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer,
-    private watchAssetService: WatchAssetService
+    private domSanitizer: DomSanitizer
     ) {
     this.matIconRegistry.addSvgIcon(
       `life_signal`,
@@ -132,9 +130,6 @@ export class AppComponent implements OnInit {
       }, .1);
     }
   }
-
-  /*addToken() {
-  }*/
 
   isCurrentView(url: string) {
     return url == this.currentView;

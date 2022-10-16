@@ -217,15 +217,15 @@
     "total_inc": "INC Total",
     "description": "Descripción",
     "tokenomic_1": [
-        "Fichas del DAO", "30%", "30,000,000,000", "Se crearán propuestas en el protocolo de governaza para destinar una parte a la oferta inical y otras a la cotización en intercambios."
+        "30", "Fichas del DAO", "Se crearán propuestas en el protocolo de governaza para destinar una parte a la oferta inical y otras a la cotización en intercambios."
     ],
     "tokenomic_2": [
-        "Fichas Bloqueadas del DAO", "45%", "45,000,000,000", "El desbloqueo es progresivo y se completa en 3 años."
+        "45", "Fichas Bloqueadas del DAO", "El desbloqueo es progresivo y se completa en 3 años."
     ],
     "tokenomic_3": [
-        "Colaboradores & Marketing", "25%", "25,000,000,000", "Para el equipo fundador, colaboradoras y marketing."
+        "25", "Colaboradores & Marketing", "Para el equipo fundador, colaboradoras y marketing."
     ],
     "tokenomic_4": [
-        "Suministro Total", "100%", "100,000,000,000", ""
+        "100", "Suministro Total", ""
     ]
 }

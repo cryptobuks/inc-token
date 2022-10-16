@@ -1,5 +1,5 @@
 import { Component, ElementRef } from '@angular/core';
-import { tokenAddress } from 'src/app/shared/constants';
+import { TOKEN_ADDRESS } from 'src/app/shared/constants';
 import { BasePageComponent } from '../base-page.component';
 
 @Component({
@@ -25,7 +25,7 @@ export class FaqComponent extends BasePageComponent {
       });
     }
 
-    this.items[3].content[1] = this.items[3].content[1].replace("{{val1}}", tokenAddress);
+    this.items[3].content[1] = this.items[3].content[1].replace("{{val1}}", TOKEN_ADDRESS);
   }
 
   onDestroy(): void {

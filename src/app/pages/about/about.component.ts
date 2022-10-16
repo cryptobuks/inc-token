@@ -1,5 +1,4 @@
 import { Component, ElementRef } from '@angular/core';
-import { openBlank } from 'src/app/shared/helper';
 import { BasePageComponent } from '../base-page.component';
 
 @Component({

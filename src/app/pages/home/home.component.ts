@@ -1,5 +1,6 @@
 import { Component, ElementRef } from '@angular/core';
 import { PrimeIcons } from 'primeng/api';
+import { TOKEN_SUPPLY } from 'src/app/shared/constants';
 import { BasePageComponent } from '../base-page.component';
 
 @Component({
@@ -60,19 +61,24 @@ export class HomeComponent extends BasePageComponent {
     ];
 
     this.tokenomics = [];
-    const tokenomicVals = [
+    const tokenomicValues = [
       this.translateService.instant('tokenomic_1'),
       this.translateService.instant('tokenomic_2'),
       this.translateService.instant('tokenomic_3'),
       this.translateService.instant('tokenomic_4')
     ];
 
-    for(let vals of tokenomicVals) {
+    for(let values of tokenomicValues) {
+      const percent = parseInt(values[0]);
+      const title = values[1];
+      const description = values[2];
+      const amount = (percent * TOKEN_SUPPLY / 100).toLocaleString('en-US');
+
       this.tokenomics.push({
-        title: vals[0],
-        percent: vals[1],
-        amount: vals[2],
-        description: vals[3]
+        title,
+        percent: percent + "%",
+        amount,
+        description
       });
     }
   }

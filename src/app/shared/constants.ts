@@ -1,9 +1,10 @@
 
 // Contract data
-export const tokenAddress = '-- COMING SOON --';// TODO set token address
-export const tokenSymbol = 'INC';
-export const tokenDecimals = 18;
-export const tokenImage = 'https://inctoken.org/assets/img/inc_logo.png';
+export const TOKEN_ADDRESS = '-- COMING SOON --';// TODO set token address
+export const TOKEN_SYMBOL = 'INC';
+export const TOKEN_DECIMALS = 18;
+export const TOKEN_SUPPLY = 100000000000;
+export const TOKEN_IMAGE = 'https://inctoken.org/assets/img/inc_logo.png';
 export const SURVEY_URL = "https://survey.inctoken.org";
 export const DOCS_URL = "https://docs.inctoken.org";
 
