@@ -2,19 +2,20 @@
 
     <div class="block font-big">
         <span class="title">{{ 'home_title' | translate }}</span>
-        <span class="description">{{ 'home_desc_1' | translate }}</span>
-        <span class="description">{{ 'home_desc_2' | translate }}</span>
+        <span class="description">{{ 'home_desc' | translate }}</span>
         <img alt="Representation" src="assets/img/representation_dark.png" />
     </div>
 
     <div class="block font-med center">
         <span class="title">{{ 'what_is_inc' | translate }}</span>
-        <span class="description">{{ 'what_is_inc_desc_1' | translate }} {{ 'what_is_inc_desc_2' | translate }}</span>
+        <span class="description">{{ 'what_is_inc_desc_1' | translate }}</span>
+        <span class="description">{{ 'what_is_inc_desc_2' | translate }}</span>
     </div>
 
     <div class="block font-med center">
         <span class="title">{{ 'why_inc' | translate }}</span>
-        <span class="description">{{ 'why_inc_desc' | translate }}</span>
+        <span class="description">{{ 'why_inc_desc_1' | translate }}</span>
+        <span class="description">{{ 'why_inc_desc_2' | translate }}</span>
     </div>
 
     <div class="block font-med center">
@@ -106,6 +107,31 @@
     </div>
 
     <p-divider></p-divider>
+
+    <div class="block font-med center">
+        <span class="title">{{ 'tokenomics' | translate }}</span>
+
+        <div class="block-content">
+            <p-table responsiveLayout="scroll" [value]="tokenomics">
+                <ng-template pTemplate="header" let-columns>
+                    <tr>
+                        <th></th>
+                        <th>{{ 'percent_supply' | translate }}</th>
+                        <th>{{ 'total_inc' | translate }}</th>
+                        <th>{{ 'description' | translate }}</th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-tokenomic let-columns="columns">
+                    <tr>
+                        <td>{{ tokenomic.title }}</td>
+                        <td>{{ tokenomic.percent }}</td>
+                        <td>{{ tokenomic.amount }}</td>
+                        <td>{{ tokenomic.description }}</td>
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+    </div>
 
     <div class="block font-med center">
         <span class="title">{{ 'case_of_use' | translate }}</span>

@@ -14,6 +14,7 @@ export class HomeComponent extends BasePageComponent {
 
   readonly titleKey = "app_name";
   useCaseSteps: any[];
+  tokenomics: any[];
 
   constructor(element: ElementRef) {
     super(element);
@@ -57,6 +58,23 @@ export class HomeComponent extends BasePageComponent {
         color: "#607D8B"
       }
     ];
+
+    this.tokenomics = [];
+    const tokenomicVals = [
+      this.translateService.instant('tokenomic_1'),
+      this.translateService.instant('tokenomic_2'),
+      this.translateService.instant('tokenomic_3'),
+      this.translateService.instant('tokenomic_4')
+    ];
+
+    for(let vals of tokenomicVals) {
+      this.tokenomics.push({
+        title: vals[0],
+        percent: vals[1],
+        amount: vals[2],
+        description: vals[3]
+      });
+    }
   }
 
   onDestroy(): void {

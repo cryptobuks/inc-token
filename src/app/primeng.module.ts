@@ -8,6 +8,7 @@ import { InputNumberModule } from 'primeng/inputnumber';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { AccordionModule } from 'primeng/accordion';
 import { DialogModule } from 'primeng/dialog';
+import { TableModule } from 'primeng/table';
 
 const AllPrimeNGModules = [
     TimelineModule,
@@ -18,7 +19,8 @@ const AllPrimeNGModules = [
     InputNumberModule,
     SelectButtonModule,
     AccordionModule,
-    DialogModule
+    DialogModule,
+    TableModule
 ];
 
 @NgModule({

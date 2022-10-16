@@ -13,13 +13,13 @@
     "legal_privacy": "Legal y Privacidad",
     "copyright": "© 2022 Incentive Token LLC. Todos los derechos reservados.",
     "home_title": "Renovamos los incentivos del siglo 21.",
-    "home_desc_1": "INC es una forma fácil, segura e innovadora de incentivar a los usuarios.",
-    "home_desc_2": "El token INC combina las cualidades de la cadena de bloques Polygon con una pila de tecnología de vanguardia, lo que hace que los incentivos sean recursos poderosos tanto para los creadores de contenido como para los usuarios.",
+    "home_desc": "El token INC combina las cualidades de la cadena de bloques Polygon con una pila de tecnología de vanguardia, lo que hace que los incentivos sean recursos poderosos tanto para los creadores de contenido como para los usuarios.",
     "what_is_inc": "¿Qué es Incentive (INC)?",
-    "what_is_inc_desc_1": "INC es un activo desarrollado específicamente para innovar los incentivos de encuestas y eventos.",
+    "what_is_inc_desc_1": "INC es un token de utilidad y gobernanza que representa una forma fácil, segura e innovadora de incentivar a los usuarios.",
     "what_is_inc_desc_2": "Los protocolos basados en INC permiten el intercambio de tokens entre los creadores de contenido y los participantes con total seguridad y sin necesidad de intermediarios.",
     "why_inc": "¿Por qué INC?",
-    "why_inc_desc": "INC es mucho más atractivo para los usuarios, gracias a la descentralización, internacionalización, automatización y seguridad que ofrecen las aplicaciones basadas en INC.",
+    "why_inc_desc_1": "INC es un activo desarrollado específicamente para innovar los incentivos de encuestas y eventos.",
+    "why_inc_desc_2": "INC es mucho más atractivo para los usuarios, gracias a la descentralización, internacionalización, automatización y seguridad que ofrecen las aplicaciones basadas en INC.",
     "for_users": "Para usuarios",
     "for_users_desc": "Los usuarios podrán acceder a las aplicaciones para ganar tokens INC completando cuestionarios o usar sus tokens para participar en eventos. Los tokens INC se pueden enviar y recibir utilizando cualquier billetera compatible con ERC20.",
     "for_companies": "Para empresas",
@@ -38,18 +38,18 @@
     "benefit_non_inflationary_title": "No inflacionario",
     "benefit_non_inflationary_desc": "Suministro fijo de los tokens que reduce la volatilidad y mejora la calidad.",
     "who_we_are": "¿Quiénes somos?",
-    "who_we_are_desc": "Somos un grupo de desarrolladores con más de 10 años de experiencia en tecnología blockchain y desarrollo de aplicaciones empresariales.",
+    "who_we_are_desc": "Somos un grupo de desarrolladores con más de 15 años de experiencia en tecnología blockchain y desarrollo de aplicaciones empresariales.",
     "what_our_purpose": "¿Cuál es nuestro propósito?",
     "what_our_purpose_desc": "Comenzamos este proyecto con el propósito de proporcionar una forma innovadora de incentivar a los usuarios sin limitar o centralizar el uso.",
     "our_vision_for_future": "Nuestra visión para el futuro",
     "our_vision_for_future_desc_1": "Con una hoja de ruta bien definida y un equipo que tiene un historial probado en la entrega de soluciones blockchain, estamos en camino de ofrecer otras funcionalidades basadas en el Token INC.",
-    "our_vision_for_future_desc_2": "Nuestro objetivo actual es avanzar en nuestra aplicación descentralizada para permitir la generación de eventos.",
-    "our_vision_for_future_desc_3": "También queremos oferecer una solución libre e innovadora para el intercambio tokens.",
+    "our_vision_for_future_desc_2": "Nuestro objetivo actual es hacer crecer la comunidad mientras analizamos detenidamente las propuestas de mejora y refinamos nuestro protocolo de encuesta.",
+    "our_vision_for_future_desc_3": "También queremos hacer avances significativos en nuestra próxima aplicación basada en INC para permitir la generación de eventos.",
     "case_of_use": "Caso de uso",
     "create_survey_title": "Crear encuesta",
     "create_survey_subject": "Llevado a cabo por la empresa",
     "create_survey_content": [
-        "A través de nuestra aplicación u otras aplicaciones descentralizadas, la organización crea un cuestionario haciendo las preguntas adecuadas para recopilar opiniones y promocionar la marca.",
+        "A través de nuestra aplicación, la organización crea un cuestionario haciendo las preguntas adecuadas para recopilar opiniones y promocionar la marca.",
         "Además, la empresa deberá indicar la siguiente información:",
         "&bull; Presupuesto total de tokens INC",
         "&bull; Importe de recompensa por participación",
@@ -81,19 +81,19 @@
         "Las encuestas son públicas, por lo que cualquier persona en cualquier momento puede consultar los resultados."
     ],
     "roadmap": "Hoja de ruta",
-    "target_1_title": "Semestre 1 de 2022",
+    "target_1_title": "Completado",
     "target_1_subject": "Administrador de Encuestas",
     "target_1_content": [
         "Hasta ahora, hemos desarrollado un administrador de encuestas fantástico donde por un lado, las empresas pueden promocionarse y por otro, los usuarios pueden ganar tokens al participar en las encuestas disponibles.",
         "Por favor, eche un vistazo a <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>."
     ],
-    "target_2_title": "Semestre 2 de 2022",
+    "target_2_title": "Semestre 1 de 2023",
     "target_2_subject": "Marketing y Visibilidad",
     "target_2_content": [
         "Durante este tiempo nos enfocaremos en dar más visibilidad al token INC, fortalecer la comunidad y recaudar fondos.",
         "También iniciaremos el proceso para listar el token INC en los intercambios centrelizados y descentralizados más conocidos."
     ],
-    "target_3_title": "Trimestre 1 de 2023",
+    "target_3_title": "Trimestre 3 de 2023",
     "target_3_subject": "Generador de Eventos 25%",
     "target_3_content": [
         "<h2>Especificaciones técnicas</h2>",
@@ -104,14 +104,14 @@
         "Nuestra API permitirá la verificación de los códigos QR.",
         "No podemos revelar más detalles hasta que finalice el desarrollo por completo, pero si indicaremos nuestro progreso en <a target='_blanck' href='https://event.inctoken.org'>event.inctoken.org</a>." 
     ],
-    "target_4_title": "Trimestre 2 de 2023",
+    "target_4_title": "Trimestre 4 de 2023",
     "target_4_subject": "Generador de Eventos 50%",
     "target_4_content": [
         "<h2>Implementar contratos</h2>",
         "Esta fase será dedicada a la implementación de los contratos inteligentes siguiendo los pasos definidos en la fase anterior.",
         "Siguiendo las buenas prácticas de Solidity, crearemos un código legible, robusto y escalable."
     ],
-    "target_5_title": "Trimestre 3 de 2023",
+    "target_5_title": "Trimestre 1 de 2024",
     "target_5_subject": "Generador de Eventos 75%",
     "target_5_content": [
         "<h2>Tests unitarios y de integración</h2>",
@@ -120,22 +120,23 @@
         "&bull; Pruebas de integración que se enfocan en asegurar que múltiples partes del código funcionen juntas como se espera.",
         "El software de cadena de bloques requiere más énfasis en las pruebas, debido a la inmutabilidad."
     ],
-    "target_6_title": "Trimestre 4 de 2023",
+    "target_6_title": "Trimestre 2 de 2024",
     "target_6_subject": "Generador de Eventos 100%",
     "target_6_content": [
         "<h2>Desarrollar el cliente</h2>",
         "Desarrollaremos un frontend responsivo que ofrece una experiencia del usuario satisfactorio.",
         "El cliente, contará con las siguientes características:",
         "&bull; Conexión de billetera Polygon / ERC-20",
-        "&bull; Panel de intercambio donde se llevarán a cabo las operaciones de intercambio de tokens.",
-        "&bull; Panel de liquidez que permite a un proveedor aportar liquidez al sistema.",
-        "&bull; Vista de gráficas para comprobar los precios y el volumen de negocio.",
+        "&bull; Tablero que muestra el estado y progreso de los eventos y participaciones asociados a la cuenta.",
+        "&bull; Panel de eventos que permite la búsqueda de eventos, la participación y ver los resultados.",
+        "&bull; Panel para crear nuevos eventos.",
+        "&bull; Panel para el intercambio de tokens.",
         "&bull; Enlace para acceder a la documentación"
     ],
     "target_7_title": "Próximamente",
-    "target_7_subject": "Intercambio Descentralizado",
+    "target_7_subject": "Otras ideas",
     "target_7_content": [
-        "En cuanto terminemos los objetivos indicados, nos pondremos manos a la obra para diseñar un intercambio descentralizado que permitirá al proveedor de liquidez eligir entre varias tarifas."
+        "Esto solo es un comienzo, en cuanto terminemos los objetivos indicados, nos pondremos manos a la obra para implementar otras ideas que se encuentran en fase de estudio. "
     ],
     "community_resources": "Recursos comunitarios",
     "community_resources_desc": "Únase a la comunidad de INC para conectarse con otros participantes de la red, obtener respuestas sobre la plataforma y mantenerse al día con los nuevos desarrollos.",
@@ -153,9 +154,10 @@
         "INC es un activo desarrollado específicamente para innovar los incentivos de encuestas y eventos.",
         "Los protocolos basados en INC permiten el intercambio de tokens entre los creadores de contenido y los participantes con total seguridad y sin necesidad de intermediarios."
     ],
-    "faq_question_2": "¿Cuál es el símbolo de INC?",
+    "faq_question_2": "¿Quien gestiona INC?",
     "faq_response_2": [
-        "El símbolo de token INC es <b>INC</b>."
+        "INC es una organización autónoma descentralizada o DAO, por lo tanto, cada desición se somte a votos de la comunidad.",
+        "El propietario ´onlyOwner´ del token INC es un contrato de governanza y es el único que puede ejecutar código de actualización una vez aprobado por votación."
     ],
     "faq_question_3": "¿Cuál es el nombre de INC?",
     "faq_response_3": [
@@ -168,36 +170,62 @@
         "<b>No hay otra implementación oficialmente aprobada del contrato INC.</b>",
         "Tenga cuidado con los estafadores que pueden tratar de convencerlo de aceptar tokens INC alternativos, que probablemente no valen nada y no se pueden usar con aplicaciones basadas en INC. Para su seguridad, compruebe que está interactuando con el contrato oficial de tokens INC y verifique sus transacciones en https://polygonscan.com."
     ],
-    "faq_question_5": "¿Cómo funciona INC?",
+    "faq_question_5": "¿Para qué sirve INC?",
     "faq_response_5": [
-        "El uso más común del token INC es el siguiente:",
-        "1. Las empresas crean encuestas y asignan un presupuesto total y una recompensa por la participación.",
-        "2. Las dApps basadas en INC enumeran las encuestas y permiten la participación en función de los parámetros de cada encuesta.",
-        "3. Los usuarios participan en las encuestas y a cambio, reciben tokens INC directamente en su billetera.",
-        "Sin embargo, no solo las empresas pueden crear eventos y encuestas, cualquiera puede crear contenido dirigido a todos o solo a ciertos usuarios."
+        "Las dApps basadas en INC permiten la creación de encuestas y eventos donde tiene lugar el intercambio de tokens INC entre los creadores de contenido y los participantes.",
+        "También se puede usar el token INC para participar en la governanza."
     ],
-    "faq_question_6": "¿Qué billeteras son compatibles con INC?",
+    "faq_question_6": "¿Cómo funciona INC?",
     "faq_response_6": [
+        "Actualmente el protocolo de encuesta está operativo y funciona de la siguiente manera:",
+        "1. Las empresas crean encuestas y asignan un presupuesto total y una recompensa por participación.",
+        "2. La dApp enumeran las encuestas y permite la participación en función de los parámetros de cada encuesta.",
+        "3. Los usuarios participan en las encuestas y a cambio, reciben tokens INC directamente en su billetera.",
+        "Sin embargo, no solo las empresas pueden crear encuestas, cualquiera puede crear contenido dirigido a todos o solo a ciertos usuarios."
+    ],
+    "faq_question_7": "¿Qué billeteras son compatibles con INC?",
+    "faq_response_7": [
         "INC es un token construido sobre <b>Polygon</b> y totalmente compatible con <b>ERC20</b>. Usando MATIC para pagar el gas, los tokens INC se pueden enviar y recibir usando cualquier billetera compatible con ERC20."
     ],
-    "faq_question_7": "¿Es INC un token ERC20?",
-    "faq_response_7": [
+    "faq_question_8": "¿Es INC un token ERC20?",
+    "faq_response_8": [
         "Sí, INC es un token construido en <b>Polygon</b> y totalmente compatible con <b>ERC20</b>. Los tokens INC se pueden enviar y recibir utilizando cualquier billetera compatible con ERC20."
     ],
-    "faq_question_8": "¿Cómo puedo conseguir INC?",
-    "faq_response_8": [
-        "En nuestra DApp, en la pestaña Swap, puede intercambiar MATIC por tokens INC."
-    ],
-    "faq_question_9": "¿Dónde puedo intercambiar INC?",
+    "faq_question_9": "¿Cómo puedo conseguir INC?",
     "faq_response_9": [
-        "Actualmente, el token INC, no se puede intercambiar por otras criptomonedas. Hacemos todo lo posible para que pronto se pueda comerciar en varios intercambios de activos digitales."
+        "Durante la oferta inicial, puede obtener tokens INC desde nuestra plataforma de encuestas ´survey.inctoken.org´."
+    ],
+    "faq_question_10": "¿Dónde puedo intercambiar INC?",
+    "faq_response_10": [
+        "Durante la oferta inicial, el token INC no se puede cambiar por otras criptomonedas.",
+        "Una vez finalizada la oferta inicial, se crearán propuestas para proporcionar liquidez en intercambios descentralizados como Uniswap y Sushiswap.",
+        "A continuación, comenzaremos el proceso de cotización en intercambios centralizados como Binance y Coinbase."
+    ],
+    "faq_question_11": "¿Porque se usa onlyOwner en el código?",
+    "faq_response_11": [
+        "onlyOwner es un modificador que restringe el acceso a la función al propietario del contrato, en este caso, el propietario de INC es el contrato de goverananza. Por lo tanto, los desarrolladores no pueden ejecutar ningún código sin crear propuestas y someterlas a votos de la comunidad.",
+        "Este modifcador podría llamarse de otro modo pero onlyOwner es el más usado ya que proviene del estandar creado por OpenZeppelin."
+    ],
+    "faq_question_12": "¿Donde se recuadan los fondos de la oferta inicial?",
+    "faq_response_12": [
+        "Los fondos de la oferta inicial se recogen en el contrato de gobierno y se necesita una votación para moverlos."
     ],
     "sorry_we_havent_found_anything": "Lo sentimos, no hemos encontrado nada :(",
-    "introduction": "Introducción",
-    "api_reference": "Referencia de la API",
     "launch_app": "Iniciar aplicación",
-    "responsible_members": "Miembros responsables",
-    "member_1_post": "Ingeniero de Software",
-    "member_2_post": "Arquitecto de Software",
-    "member_3_post": "Asesor Comercial"
+    "tokenomics": "Tokenomics",
+    "percent_supply": "% del suministro",
+    "total_inc": "INC Total",
+    "description": "Descripción",
+    "tokenomic_1": [
+        "Fichas del DAO", "30%", "30,000,000,000", "Se crearán propuestas en el protocolo de governaza para destinar una parte a la oferta inical y otras a la cotización en intercambios."
+    ],
+    "tokenomic_2": [
+        "Fichas Bloqueadas del DAO", "45%", "45,000,000,000", "El desbloqueo es progresivo y se completa en 3 años."
+    ],
+    "tokenomic_3": [
+        "Colaboradores & Marketing", "25%", "25,000,000,000", "Para el equipo fundador, colaboradoras y marketing."
+    ],
+    "tokenomic_4": [
+        "Suministro Total", "100%", "100,000,000,000", ""
+    ]
 }

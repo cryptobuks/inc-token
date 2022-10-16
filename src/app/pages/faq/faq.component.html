@@ -4,19 +4,13 @@
         <span class="title">{{ 'faq' | translate }}</span>
 
         <div fxLayout="row wrap">
-            <div class="faq-menu" fxLayoutAlign="left top">
-                <p-panelMenu [model]="items" [style]="{'width':'100%'}"></p-panelMenu>
-            </div>
-    
-            <div class="faq-content" fxLayoutAlign="left top">
-                <div #responseCnt>
-                    <h1>{{ getLabel() }}</h1>
-    
-                    <p *ngFor="let text of getContent()">
-                        <span [innerHTML]="text"></span>
-                    </p>
-                </div>
-            </div>
+
+            <p-accordion class="faq-accordion">
+                <p-accordionTab *ngFor="let item of items" [header]="item.label">
+                    <span *ngFor="let text of item.content" [innerHTML]="text"></span>
+                </p-accordionTab>
+            </p-accordion>
+
         </div>
     </div>
 

@@ -15,7 +15,6 @@ import { GenericSnackBarComponent } from './comps/generic-snack-bar/generic-snac
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AboutComponent } from './pages/about/about.component';
 import { CommunityComponent } from './pages/community/community.component';
-import { DocumentationComponent } from './pages/documentation/documentation.component';
 import { PrimeNGModule } from './primeng.module';
 import { FaqComponent } from './pages/faq/faq.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -32,7 +31,6 @@ import { LegalComponent } from './pages/legal/legal.component';
     GenericSnackBarComponent,
     AboutComponent,
     CommunityComponent,
-    DocumentationComponent,
     FaqComponent,
     NotFoundComponent,
     PrivacyComponent,
