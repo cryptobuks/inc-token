@@ -21,9 +21,9 @@
     "why_inc_desc_1": "INC is an asset specifically developed to innovate survey and event incentives.",
     "why_inc_desc_2": "INC is much more attractive to users, thanks to the decentralization, internationalization, automation, and security offered by INC-based applications.",
     "for_users": "For Users",
-    "for_users_desc": "Users will be able to access the apps to earn INC tokens by filling out questionnaires or use their tokens to participate in events. INC tokens can be sent and received using any ERC20 compliant wallet.",
+    "for_users_desc": "Users will be able to access INC-based apps to earn various tokens by completing quizzes or use their tokens to participate in events. Tokens can be sent and received using any ERC20 compliant wallet.",
     "for_companies": "For Companies",
-    "for_companies_desc": "Companies will be able to retain their users and get new ones, creating surveys and events and promoting products. Companies can also use INC tokens to motivate their workers or collaborators.",
+    "for_companies_desc": "Companies will be able to retain their users and get new ones, creating surveys and events and promoting products. Companies can also use the tokens to motivate their workers or collaborators.",
     "benefits_of_inc": "The benefits of INC",
     "benefit_fast_title": "Fast & Better",
     "benefit_fast_desc": "INC is built on top of Polygon, which addresses the limitations of Ethereum such as transaction speed, throughput, and gas fees.",
@@ -42,7 +42,7 @@
     "what_our_purpose": "What is our purpose?",
     "what_our_purpose_desc": "We started this project with the purpose of providing an innovative way to incentivize users without limiting or centralizing usage.",
     "our_vision_for_future": "Our vision for the future",
-    "our_vision_for_future_desc_1": "With a well-defined roadmap and a team that has a proven track record in delivering blockchain solutions, we are on the way to offer other functionalities based on the INC Token.",
+    "our_vision_for_future_desc_1": "With a well-defined roadmap and a team that has a proven track record in delivering blockchain solutions, we are on our way to offer other functionality based on INC.",
     "our_vision_for_future_desc_2": "Our current goal is to grow the community as we carefully review improvement proposals and refine our survey protocol.",
     "our_vision_for_future_desc_3": "We also want to make significant strides in our next INC-based application to allow event generation.",
     "case_of_use": "Case of use",
@@ -51,7 +51,8 @@
     "create_survey_content": [
         "Through our application, the organization creates a questionnaire asking the appropriate questions to compile opinions and promote the brand.",
         "In addition, the company must indicate the following information:",
-        "&bull; Total budget of INC tokens",
+        "&bull; Incentive token (ERC20)",
+        "&bull; Total budget of tokens",
         "&bull; Reward amount for participation",
         "&bull; Start and end dates",
         "The survey may end before reaching the end date if the established budget is exhausted."
@@ -71,13 +72,13 @@
     "receive_reward_title": "Receive reward",
     "receive_reward_subject": "Carried out by dApps",
     "receive_reward_content": [
-        "Immediately after completing the survey and validating the entered data, the user receives their INC tokens in their wallet."
+        "Immediately after completing the survey and validating the entered data, the user receives their tokens in their wallet."
     ],
     "survey_results_title": "Survey results",
     "survey_results_subject": "Carried out by dApps",
     "survey_results_content": [
         "The company can follow the progress of the survey at all times and see the shares and the quantities consumed.",
-        "If the survey has ended because the end date has been reached, the company will still have the untransferred INC tokens.",
+        "If the survey has ended because the end date has been reached, the company will still have the untransferred tokens.",
         "The surveys are public, so anyone at any time can check the results."
     ],
     "roadmap": "Roadmap",
@@ -151,13 +152,14 @@
     "inc_community": "INC community",
     "faq_question_1": "What is INC?",
     "faq_response_1": [
-        "INC is an asset specifically developed to innovate survey and event incentives.",
+        "INC is a DAO (Decentralized Autonomous Organization) represented by the company Incentive Token, LLC.",
+        "INC Token is a utility and governance asset developed specifically to innovate survey and event incentives.",
         "INC-based protocols allow the exchange of tokens between content creators and participants in complete security and without the need for intermediaries."
     ],
     "faq_question_2": "Who manages INC?",
     "faq_response_2": [
         "INC is a DAO (Decentralized Autonomous Organization), therefore, every decision is subject to community votes.",
-        "The owner ´onlyOwner´ of the INC token is a governance contract and is the only one who can execute update code once approved by vote."
+        "The owner ´onlyOwner´ of the INC Token is a governance contract and is the only one who can execute update code once approved by vote."
     ],
     "faq_question_3": "What is the name of INC?",
     "faq_response_3": [
@@ -178,9 +180,9 @@
     "faq_question_6": "How does INC work?",
     "faq_response_6": [
         "Currently the survey protocol is operational and works as follows:",
-        "1. Companies create surveys and allocate a total budget and participation reward.",
+        "1. Companies create surveys, select a token, and allocate a total budget and participation reward.",
         "2. The DApp lists the surveys and allows participation based on the parameters of each survey.",
-        "3. Users participate in surveys and in return receive INC tokens directly to their wallet.",
+        "3. Users participate in surveys and in return receive tokens directly to their wallet.",
         "However, not only companies can create surveys, anyone can create content that is targeted to everyone or only to certain users."
     ],
     "faq_question_7": "What wallets are INC compliant?",
@@ -193,12 +195,12 @@
     ],
     "faq_question_9": "How can I get INC?",
     "faq_response_9": [
-        "During the initial offering, you can get INC tokens from our survey platform ´survey.inctoken.org´."
+        "During the initial offering, you can get INC tokens from our survey platform <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>."
     ],
     "faq_question_10": "Where can I trade INC?",
     "faq_response_10": [
         "During the initial offering, the INC token cannot be exchanged for other cryptocurrencies.",
-        "After the initial offering is over, proposals will be created to provide liquidity on decentralized exchanges such as Uniswap & Sushiswap.",
+        "After the initial offering is over, proposals will be created to provide liquidity on decentralized exchanges such as Uniswap or Sushiswap.",
         "Next, we will start the listing process on centralized exchanges like Binance & Coinbase."
     ],
     "faq_question_11": "Can INC be mined?",
@@ -214,7 +216,7 @@
     "faq_response_13": [
         "The funds of the initial offer are collected in the governance contract and a vote is needed to move them."
     ],
-    "sorry_we_havent_found_anything": "Sorry, we haven't found anything :(",
+    "sorry_we_havent_found_anything": "Sorry, we haven't found anything.",
     "launch_app": "Launch App",
     "tokenomics": "Tokenomics",
     "percent_supply": "% of supply",
