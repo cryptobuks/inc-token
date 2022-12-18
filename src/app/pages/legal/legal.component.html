@@ -13,6 +13,12 @@
             <p-accordionTab header="{{ 'privacy_policy' | translate }}" [selected]="true">
                 <app-privacy></app-privacy>
             </p-accordionTab>
+            <p-accordionTab header="{{ 'cookie_policy' | translate }}" [selected]="true">
+                <app-cookie-policy></app-cookie-policy>
+            </p-accordionTab>
+            <p-accordionTab header="{{ 'disclaimer' | translate }}" [selected]="true">
+                <app-disclaimer></app-disclaimer>
+            </p-accordionTab>
         </p-accordion>
 
         <!--<mat-tab-group mat-align-tabs="center">

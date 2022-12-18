@@ -23,10 +23,14 @@
             {{ 'community' | translate }}
         </a>
 
+        <a mat-button href="https://docs.inctoken.org" target="_blank" class="large-screen">
+            {{ 'docs' | translate }}  <mat-icon>open_in_new</mat-icon>
+        </a>
+
         <span class="flex-spacer"></span>
 
         <a mat-button href="https://survey.inctoken.org" class="large-screen outstanding-button" target="_blank">
-            {{ 'launch_app' | translate }}
+            {{ 'launch_app' | translate }}  <mat-icon>open_in_new</mat-icon>
         </a>
 
         <!--<a mat-button (click)="addToken()" class="large-screen">
@@ -63,13 +67,15 @@
                 <a href="/about">{{ 'about' | translate }}</a>
                 <a href="/faq">{{ 'faq' | translate }}</a>
                 <a href="/community">{{ 'community' | translate }}</a>
+                <a href="https://docs.inctoken.org" target="_blank">{{ 'docs' | translate }}</a>
             </div>
 
             <div class="grid-item">
                 <h3>{{ 'terms_and_policies' | translate }}</h3>
-                <a href="/terms">{{ 'terms_of_service' | translate }}</a>
-                <a href="/privacy#cookies">{{ 'cookie_policy' | translate }}</a>
-                <a href="/privacy">{{ 'privacy_policy' | translate }}</a>
+                <a href="/terms-of-service">{{ 'terms_of_service' | translate }}</a>
+                <a href="/privacy-policy">{{ 'privacy_policy' | translate }}</a>
+                <a href="/cookie-policy">{{ 'cookie_policy' | translate }}</a>
+                <a href="/disclaimer">{{ 'disclaimer' | translate }}</a>
             </div>
 
             <div class="grid-item">
@@ -115,8 +121,12 @@
             {{ 'community' | translate }}
         </a>
 
+        <a mat-button href="https://docs.inctoken.org" target="_blank">
+            {{ 'docs' | translate }}  <mat-icon>open_in_new</mat-icon>
+        </a>
+
         <a mat-button href="https://survey.inctoken.org" class="outstanding-button" target="_blank">
-            {{ 'launch_app' | translate }}
+            {{ 'launch_app' | translate }}  <mat-icon>open_in_new</mat-icon>
         </a>
 
         <!--<a mat-button (click)="addToken()">

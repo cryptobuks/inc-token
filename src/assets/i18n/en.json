@@ -10,6 +10,7 @@
     "terms_of_service": "Terms of Service",
     "cookie_policy": "Cookie Policy",
     "privacy_policy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
     "legal_privacy": "Legal & Privacy",
     "copyright": "© 2022 Incentive Token LLC. All rights reserved.",
     "home_title": "We renew the incentives of the 21st century.",
@@ -21,22 +22,22 @@
     "why_inc_desc_1": "INC is an asset specifically developed to innovate survey and event incentives.",
     "why_inc_desc_2": "INC is much more attractive to users, thanks to the decentralization, internationalization, automation, and security offered by INC-based applications.",
     "for_users": "For Users",
-    "for_users_desc": "Users will be able to access INC-based apps to earn various tokens by completing quizzes or use their tokens to participate in events. Tokens can be sent and received using any ERC20 compliant wallet.",
+    "for_users_desc": "Users will be able to access INC-based applications to obtain different tokens by completing questionnaires or use their tokens to participate in events. Tokens can be sent and received using any ERC-20 compliant wallet.",
     "for_companies": "For Companies",
-    "for_companies_desc": "Companies will be able to retain their users and get new ones, creating surveys and events and promoting products. Companies can also use the tokens to motivate their workers or collaborators.",
+    "for_companies_desc": "Companies will be able to create market research, check the satisfaction of their users and get new ones, creating surveys and events and promoting products. Companies can use INC or any other ERC-20 token from the Polygon chain to incentivize users.",
     "benefits_of_inc": "The benefits of INC",
     "benefit_fast_title": "Fast & Better",
     "benefit_fast_desc": "INC is built on top of Polygon, which addresses the limitations of Ethereum such as transaction speed, throughput, and gas fees.",
     "benefit_secure_title": "Secure",
-    "benefit_secure_desc": "The immutability of transactions ensures security, however ownership of INC tokens is completely anonymous.",
-    "benefit_seamless_title": "Seamless",
-    "benefit_seamless_desc": "INC is an ERC-20 token. The Polygon blockchain makes processes faster and easier.",
-    "benefit_open_title": "Open",
-    "benefit_open_desc": "Users, incorporations, and developers: everyone can harness INC’s power.",
+    "benefit_secure_desc": "The immutability of transactions guarantees the security and the ownership of INC tokens is completely anonymous.",
+    "benefit_unowned_title": "Unowned",
+    "benefit_unowned_desc": "The owner of the INC token is a contract of governance, so any change is subject to a community vote.",
     "benefit_transparent_title": "Transparent",
-    "benefit_transparent_desc": "Transactions are decentralized, publicly recorded, and trackable.",
+    "benefit_transparent_desc": "Our code is verified in the polygon block explorer and can be checked out in our Github repositories.",
+    "benefit_endorsed_title": "Endorsed",
+    "benefit_endorsed_desc": "INC based applications provide you with continuous use and support, INC was launched together with the first and only survey protocol on the blockchain.",
     "benefit_non_inflationary_title": "Non-inflationary",
-    "benefit_non_inflationary_desc": "Fixed supply of the tokens that reduces volatility and improves quality.",
+    "benefit_non_inflationary_desc": "INC has a controlled supply of tokens which reduces volatility and improves quality. Only 10% per year can be mined subject to a community vote.",
     "who_we_are": "Who we are?",
     "who_we_are_desc": "We are a group of developers with more than 15 years of experience in blockchain technology and enterprise application development.",
     "what_our_purpose": "What is our purpose?",
@@ -77,8 +78,8 @@
     "survey_results_title": "Survey results",
     "survey_results_subject": "Carried out by dApps",
     "survey_results_content": [
-        "The company can follow the progress of the survey at all times and see the shares and the quantities consumed.",
-        "If the survey has ended because the end date has been reached, the company will still have the untransferred tokens.",
+        "The company can follow the progress of the survey at all times and see the number of participants, the responses, and the amounts consumed.",
+        "The company can resolve the survey at any time and recover the remaining gas reserve and untransferred tokens.",
         "The surveys are public, so anyone at any time can check the results."
     ],
     "roadmap": "Roadmap",
@@ -233,5 +234,6 @@
     ],
     "tokenomic_4": [
         "100", "Total Supply", ""
-    ]
+    ],
+    "docs": "Docs"
 }

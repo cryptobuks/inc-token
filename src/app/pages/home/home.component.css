@@ -14,6 +14,14 @@
   color: white;
 }
 
+::ng-deep p-table table {
+    min-width: 720px;
+}
+
+::ng-deep p-table .p-datatable-wrapper {
+    overflow: auto;
+}
+
 @media screen and (max-width: 991px) {
     .font-big img {
         margin-top: 1.5rem;

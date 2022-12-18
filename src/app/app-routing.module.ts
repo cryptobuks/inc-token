@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { CommunityComponent } from './pages/community/community.component';
+import { CookiePolicyComponent } from './pages/cookie-policy/cookie-policy.component';
+import { DisclaimerComponent } from './pages/disclaimer/disclaimer.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LegalComponent } from './pages/legal/legal.component';
@@ -14,8 +16,10 @@ const routes: Routes = [
   { path: "about", component: AboutComponent },
   { path: "faq", component: FaqComponent },
   { path: "community", component: CommunityComponent },
-  { path: "terms", component: TermsComponent },
-  { path: "privacy", component: PrivacyComponent },
+  { path: "terms-of-service", component: TermsComponent },
+  { path: "privacy-policy", component: PrivacyComponent },
+  { path: "cookie-policy", component: CookiePolicyComponent },
+  { path: "disclaimer", component: DisclaimerComponent },
   { path: "legal", component: LegalComponent },
   { path: '**', component: NotFoundComponent },
 ];

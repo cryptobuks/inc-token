@@ -6,6 +6,7 @@
 ::ng-deep .faq-accordion .p-accordion-content {
     font-size: 18px;
     line-height: 1.5;
+    padding: 2rem;
     background: #0a0a0a;
 }
 

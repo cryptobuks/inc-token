@@ -22,6 +22,8 @@ import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { TermsComponent } from './pages/terms/terms.component';
 import { FormsModule } from '@angular/forms';
 import { LegalComponent } from './pages/legal/legal.component';
+import { CookiePolicyComponent } from './pages/cookie-policy/cookie-policy.component';
+import { DisclaimerComponent } from './pages/disclaimer/disclaimer.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { LegalComponent } from './pages/legal/legal.component';
     NotFoundComponent,
     PrivacyComponent,
     TermsComponent,
-    LegalComponent
+    LegalComponent,
+    CookiePolicyComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,
