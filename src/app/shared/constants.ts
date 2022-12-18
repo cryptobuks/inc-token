@@ -1,6 +1,6 @@
 
 // Contract data
-export const TOKEN_ADDRESS = '-- COMING SOON --';// TODO set token address
+export const TOKEN_ADDRESS = '0x07833afE46E945296e842e295DC6FCB329E38899';
 export const TOKEN_SYMBOL = 'INC';
 export const TOKEN_DECIMALS = 18;
 export const TOKEN_SUPPLY = 100000000000;
