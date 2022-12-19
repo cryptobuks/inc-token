@@ -7,16 +7,16 @@
         </p-selectButton>-->
 
         <p-accordion [multiple]="true">
-            <p-accordionTab header="{{ 'terms_of_service' | translate }}" [selected]="true">
+            <p-accordionTab header="{{ 'terms_of_service' | translate }}" [selected]="false">
                 <app-terms></app-terms>
             </p-accordionTab>
-            <p-accordionTab header="{{ 'privacy_policy' | translate }}" [selected]="true">
+            <p-accordionTab header="{{ 'privacy_policy' | translate }}" [selected]="false">
                 <app-privacy></app-privacy>
             </p-accordionTab>
-            <p-accordionTab header="{{ 'cookie_policy' | translate }}" [selected]="true">
+            <p-accordionTab header="{{ 'cookie_policy' | translate }}" [selected]="false">
                 <app-cookie-policy></app-cookie-policy>
             </p-accordionTab>
-            <p-accordionTab header="{{ 'disclaimer' | translate }}" [selected]="true">
+            <p-accordionTab header="{{ 'disclaimer' | translate }}" [selected]="false">
                 <app-disclaimer></app-disclaimer>
             </p-accordionTab>
         </p-accordion>
