@@ -2,6 +2,8 @@
    Options -Indexes
    RewriteEngine On
    RewriteBase /
+   RewriteRule ^/docs/(.*)$ http://docs.inctoken.org/$1 [R=301,L]
+   RewriteRule ^/survey/(.*)$ http://survey.inctoken.org/$1 [R=301,L]
    RewriteRule ^index\.html$ - [L]
    RewriteCond %{REQUEST_FILENAME} !-f
    RewriteCond %{REQUEST_FILENAME} !-d
