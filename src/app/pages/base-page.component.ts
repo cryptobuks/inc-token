@@ -29,10 +29,7 @@ export abstract class BasePageComponent implements OnInit, OnDestroy {
     components[this.constructor.name] = this;
 
     this.translateService.get(['']).subscribe(translations => {
-      //if (this.titleKey) {
-        this.setTitle(this.translateService.instant(this.titleKey));
-      //}
-
+      this.setTitle(this.translateService.instant(this.titleKey));
       this.onInit();
     });
   }

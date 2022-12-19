@@ -21,7 +21,7 @@ export class FaqComponent extends BasePageComponent {
     for(let i = 1; i <= 13; i++) {
       this.items.push({
         label: this.translateService.instant('faq_question_' + i),
-        content: this.translateService.instant('faq_response_' + i)
+        content: JSON.parse(this.translateService.instant('faq_response_' + i))
       });
     }
 

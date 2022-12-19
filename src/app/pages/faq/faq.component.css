@@ -8,6 +8,7 @@
     line-height: 1.5;
     padding: 2rem;
     background: #0a0a0a;
+    word-break: break-word;
 }
 
 ::ng-deep .faq-accordion .p-accordion-content > span {

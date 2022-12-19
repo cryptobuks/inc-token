@@ -24,7 +24,7 @@ export class AboutComponent extends BasePageComponent {
       this.roadmapSteps.push({
         title: this.translateService.instant(`target_${i}_title`),
         subject: this.translateService.instant(`target_${i}_subject`),
-        content: this.translateService.instant(`target_${i}_content`),
+        content: JSON.parse(this.translateService.instant(`target_${i}_content`)),
         completed: i == 1
       });
     }

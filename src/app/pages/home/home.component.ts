@@ -26,35 +26,35 @@ export class HomeComponent extends BasePageComponent {
       {
         title: this.translateService.instant('create_survey_title'),
         subject: this.translateService.instant('create_survey_subject'),
-        content: this.translateService.instant('create_survey_content'),
+        content: JSON.parse(this.translateService.instant('create_survey_content')),
         icon: "org-icon",
         color: "#9C27B0"
       },
       {
         title: this.translateService.instant('post_survey_title'),
         subject: this.translateService.instant('post_survey_subject'),
-        content: this.translateService.instant('post_survey_content'),
+        content: JSON.parse(this.translateService.instant('post_survey_content')),
         icon: PrimeIcons.SEND,
         color: "#673AB7"
       },
       {
         title: this.translateService.instant('user_participation_title'),
         subject: this.translateService.instant('user_participation_subject'),
-        content: this.translateService.instant('user_participation_content'),
+        content: JSON.parse(this.translateService.instant('user_participation_content')),
         icon: PrimeIcons.USER,
         color: "#FF9800"
       },
       {
         title: this.translateService.instant('receive_reward_title'),
         subject: this.translateService.instant('receive_reward_subject'),
-        content: this.translateService.instant('receive_reward_content'),
+        content: JSON.parse(this.translateService.instant('receive_reward_content')),
         icon: PrimeIcons.WALLET,
         color: "#4caf50"
       },
       {
         title: this.translateService.instant('survey_results_title'),
         subject: this.translateService.instant('survey_results_subject'),
-        content: this.translateService.instant('survey_results_content'),
+        content: JSON.parse(this.translateService.instant('survey_results_content')),
         icon: PrimeIcons.CHECK,
         color: "#607D8B"
       }
@@ -62,10 +62,10 @@ export class HomeComponent extends BasePageComponent {
 
     this.tokenomics = [];
     const tokenomicValues = [
-      this.translateService.instant('tokenomic_1'),
-      this.translateService.instant('tokenomic_2'),
-      this.translateService.instant('tokenomic_3'),
-      this.translateService.instant('tokenomic_4')
+      JSON.parse(this.translateService.instant('tokenomic_1')),
+      JSON.parse(this.translateService.instant('tokenomic_2')),
+      JSON.parse(this.translateService.instant('tokenomic_3')),
+      JSON.parse(this.translateService.instant('tokenomic_4'))
     ];
 
     for(let values of tokenomicValues) {

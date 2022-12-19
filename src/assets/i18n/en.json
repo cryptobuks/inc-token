@@ -50,97 +50,41 @@
     "case_of_use": "Case of use",
     "create_survey_title": "Create survey",
     "create_survey_subject": "Carried out by the company",
-    "create_survey_content": [
-        "Through our application, the organization creates a questionnaire asking the appropriate questions to compile opinions and promote the brand.",
-        "In addition, the company must indicate the following information:",
-        "&bull; Incentive token (ERC20)",
-        "&bull; Total budget of tokens",
-        "&bull; Reward amount for participation",
-        "&bull; Start and end dates",
-        "The survey may end before reaching the end date if the established budget is exhausted."
-    ],
+    "create_survey_content": "[\"Through our application, the organization creates a questionnaire asking the appropriate questions to compile opinions and promote the brand.\",\"In addition, the company must indicate the following information:\",\"&bull; Incentive token (ERC20)\",\"&bull; Total budget of tokens\",\"&bull; Reward amount for participation\",\"&bull; Start and end dates\",\"The survey may end before reaching the end date if the established budget is exhausted.\"]",
     "post_survey_title": "Post survey",
     "post_survey_subject": "Carried out by the company",
-    "post_survey_content": [
-        "Once the necessary data has been entered, the company publishes the survey. During this step, the application is in charge of listing the survey and notifying potential users according to the sector and the parameters entered.",
-        "The company, for its part, can also publish the survey outside the platform and notify its users."
-    ],
+    "post_survey_content": "[\"Once the necessary data has been entered, the company publishes the survey. During this step, the application is in charge of listing the survey and notifying potential users according to the sector and the parameters entered.\",\"The company, for its part, can also publish the survey outside the platform and notify its users.\"]",
     "user_participation_title": "Participate in the survey",
     "user_participation_subject": "Carried out by the user",
-    "user_participation_content": [
-        "Users who receive the survey or find it by searching the platform, as long as they fit within the parameters established by the company, can participate in the survey.",
-        "Before starting the survey, users can see the details and the amount of reward."
-    ],
+    "user_participation_content": "[\"Users who receive the survey or find it by searching the platform, as long as they fit within the parameters established by the company, can participate in the survey.\",\"Before starting the survey, users can see the details and the amount of reward.\"]",
     "receive_reward_title": "Receive reward",
     "receive_reward_subject": "Carried out by dApps",
-    "receive_reward_content": [
-        "Immediately after completing the survey and validating the entered data, the user receives their tokens in their wallet."
-    ],
+    "receive_reward_content": "[\"Immediately after completing the survey and validating the entered data, the user receives their tokens in their wallet.\"]",
     "survey_results_title": "Survey results",
     "survey_results_subject": "Carried out by dApps",
-    "survey_results_content": [
-        "The company can follow the progress of the survey at all times and see the number of participants, the responses, and the amounts consumed.",
-        "The company can resolve the survey at any time and recover the remaining gas reserve and untransferred tokens.",
-        "The surveys are public, so anyone at any time can check the results."
-    ],
+    "survey_results_content": "[\"The company can follow the progress of the survey at all times and see the number of participants, the responses, and the amounts consumed.\",\"The company can resolve the survey at any time and recover the remaining gas reserve and untransferred tokens.\",\"The surveys are public, so anyone at any time can check the results.\"]",
     "roadmap": "Roadmap",
     "target_1_title": "Completed",
     "target_1_subject": "Survey Manager",
-    "target_1_content": [
-        "So far we have developed a fantastic survey manager where on the one hand companies can promote themselves and on the other hand users can earn tokens by participating in available surveys.",
-        "Please take a look at <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>."
-    ],
+    "target_1_content": "[\"So far we have developed a fantastic survey manager where on the one hand companies can promote themselves and on the other hand users can earn tokens by participating in available surveys.\",\"Please take a look at <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>.\"]",
     "target_2_title": "Semester 1 of 2023",
     "target_2_subject": "Marketing & Visibility",
-    "target_2_content": [
-        "During this time we will focus on giving more visibility to the INC token, strengthening the community and raising funds.",
-        "We will also start the process to list the INC token on the most popular centralized and decentralized exchanges."
-    ],
+    "target_2_content": "[\"During this time we will focus on giving more visibility to the INC token, strengthening the community and raising funds.\",\"We will also start the process to list the INC token on the most popular centralized and decentralized exchanges.\"]",
     "target_3_title": "Quarter 3 of 2023",
     "target_3_subject": "Event Generator 25%",
-    "target_3_content": [
-        "<h2>Technical specifications</h2>",
-        "During this phase we will write the technical specifications and thoroughly study our plan.",
-        "Our idea is to create a secure and robust event generator on top of the Polygon blockchains.",
-        "The organizer will be able to determine various types of tickets and sell them in the form of non-fungible tokens.",
-        "The participant will have a QR code that represents the ticket and will allow them to access the event.",
-        "Our API will allow verification of QR codes.",
-        "We can't reveal any more details until development is complete, but we will indicate our progress on <a target='_blanck' href='https://event.inctoken.org'>event.inctoken.org</a>."
-    ],
+    "target_3_content": "[\"<h2>Technical specifications</h2>\",\"During this phase we will write the technical specifications and thoroughly study our plan.\",\"Our idea is to create a secure and robust event generator on top of the Polygon blockchains.\",\"The organizer will be able to determine various types of tickets and sell them in the form of non-fungible tokens.\",\"The participant will have a QR code that represents the ticket and will allow them to access the event.\",\"Our API will allow verification of QR codes.\",\"We can't reveal any more details until development is complete, but we will indicate our progress on <a target='_blanck' href='https://event.inctoken.org'>event.inctoken.org</a>.\"]",
     "target_4_title": "Quarter 4 of 2023",
     "target_4_subject": "Event Generator 50%",
-    "target_4_content": [
-        "<h2>Implement contracts</h2>",
-        "This phase will be dedicated to the implementation of smart contracts following the steps defined in the previous phase.",
-        "Following the good practices of Solidity, we will create a readable, robust and scalable code."
-    ],
+    "target_4_content": "[\"<h2>Implement contracts</h2>\",\"This phase will be dedicated to the implementation of smart contracts following the steps defined in the previous phase.\",\"Following the good practices of Solidity, we will create a readable, robust and scalable code.\"]",
     "target_5_title": "Quarter 1 of 2024",
     "target_5_subject": "Event Generator 75%",
-    "target_5_content": [
-        "<h2>Unit & integration tests</h2>",
-        "Tests of 2 types will be carried out.",
-        "&bull; Unit tests that focus on each function in isolation.",
-        "&bull; Integration tests that focus on ensuring that multiple pieces of code work together as expected.",
-        "Blockchain software requires more emphasis on testing, due to immutability."
-    ],
+    "target_5_content": "[\"<h2>Unit & integration tests</h2>\",\"Tests of 2 types will be carried out.\",\"&bull; Unit tests that focus on each function in isolation.\",\"&bull; Integration tests that focus on ensuring that multiple pieces of code work together as expected.\",\"Blockchain software requires more emphasis on testing, due to immutability.\"]",
     "target_6_title": "Quarter 2 of 2024",
     "target_6_subject": "Event Generator 100%",
-    "target_6_content": [
-        "<h2>Develop the client</h2>",
-        "We will develop a responsive frontend that offers a satisfying user experience.",
-        "The client will have the following characteristics:",
-        "&bull; Polygon / ERC-20 Wallet Connection",
-        "&bull; Dashboard that shows the status and progress of the events and participations associated with the account.",
-        "&bull; Events panel that allows you to search for events, participate and view the results.",
-        "&bull; Panel to create new events.",
-        "&bull; Panel for token exchange.",
-        "&bull; Link to access the documentation."
-    ],
+    "target_6_content": "[\"<h2>Develop the client</h2>\",\"We will develop a responsive frontend that offers a satisfying user experience.\",\"The client will have the following characteristics:\",\"&bull; Polygon / ERC-20 Wallet Connection\",\"&bull; Dashboard that shows the status and progress of the events and participations associated with the account.\",\"&bull; Events panel that allows you to search for events, participate and view the results.\",\"&bull; Panel to create new events.\",\"&bull; Panel for token exchange.\",\"&bull; Link to access the documentation.\"]",
     "target_7_title": "Coming soon",
     "target_7_subject": "Other ideas",
-    "target_7_content": [
-        "This is only a beginning, as soon as we finish the indicated objectives, we will get down to work to implement other ideas that are in the study phase."
-    ],
+    "target_7_content": "[\"This is only a beginning, as soon as we finish the indicated objectives, we will get down to work to implement other ideas that are in the study phase.\"]",
     "community_resources": "Community resources",
     "community_resources_desc": "Join the INC community to connect with other network participants, get answers about the platform, and stay up-to-date with new developments.",
     "res_discord_desc": "INC official chat server is hosted on Discord.",
@@ -153,88 +97,40 @@
     "for_official_answers_join_": "For official answers and support, join the",
     "inc_community": "INC community",
     "faq_question_1": "What is INC?",
-    "faq_response_1": [
-        "INC is a DAO (Decentralized Autonomous Organization) represented by the company Incentive Token, LLC.",
-        "INC Token is a utility and governance asset developed specifically to innovate survey and event incentives.",
-        "INC-based protocols allow the exchange of tokens between content creators and participants in complete security and without the need for intermediaries."
-    ],
+    "faq_response_1": "[\"INC is a DAO (Decentralized Autonomous Organization) represented by the company Incentive Token, LLC.\",\"INC Token is a utility and governance asset developed specifically to innovate survey and event incentives.\",\"INC-based protocols allow the exchange of tokens between content creators and participants in complete security and without the need for intermediaries.\"]",
     "faq_question_2": "Who manages INC?",
-    "faq_response_2": [
-        "INC is a DAO (Decentralized Autonomous Organization), therefore, every decision is subject to community votes.",
-        "The owner ´onlyOwner´ of the INC Token is a governance contract and is the only one who can execute update code once approved by vote."
-    ],
+    "faq_response_2": "[\"INC is a DAO (Decentralized Autonomous Organization), therefore, every decision is subject to community votes.\",\"The owner ´onlyOwner´ of the INC Token is a governance contract and is the only one who can execute update code once approved by vote.\"]",
     "faq_question_3": "What is the name of INC?",
-    "faq_response_3": [
-        "The name of the INC token is <b>Incentive</b>."
-    ],
+    "faq_response_3": "[\"The name of the INC token is <b>Incentive</b>.\"]",
     "faq_question_4": "What is the INC contract address?",
-    "faq_response_4": [
-        "The official address of the INC contract is:",
-        "<i>{{val1}}</i><br/><br/>",
-        "<b>There is no other officially endorsed implementation of the INC contract.</b>",
-        "Beware of scammers who may try to convince you to accept alternative INC tokens, which are probably worthless and cannot be used with applications such as INC-based. For your safety, make sure you are only interacting with the official INC token contract and verify your transactions on https://polygonscan.com."
-    ],
+    "faq_response_4": "[\"The official address of the INC contract is:\",\"<i>{{val1}}</i><br/><br/>\",\"<b>There is no other officially endorsed implementation of the INC contract.</b>\",\"Beware of scammers who may try to convince you to accept alternative INC tokens, which are probably worthless and cannot be used with applications such as INC-based. For your safety, make sure you are only interacting with the official INC token contract and verify your transactions on https://polygonscan.com.\"]",
     "faq_question_5": "What is INC used for?",
-    "faq_response_5": [
-        "INC-based dApps allow the creation of surveys and events where the exchange of INC tokens between content creators and participants takes place.",
-        "The INC token can also be used to participate in governance."
-    ],
+    "faq_response_5": "[\"INC-based dApps allow the creation of surveys and events where the exchange of INC tokens between content creators and participants takes place.\",\"The INC token can also be used to participate in governance.\"]",
     "faq_question_6": "How does INC work?",
-    "faq_response_6": [
-        "Currently the survey protocol is operational and works as follows:",
-        "1. Companies create surveys, select a token, and allocate a total budget and participation reward.",
-        "2. The DApp lists the surveys and allows participation based on the parameters of each survey.",
-        "3. Users participate in surveys and in return receive tokens directly to their wallet.",
-        "However, not only companies can create surveys, anyone can create content that is targeted to everyone or only to certain users."
-    ],
+    "faq_response_6": "[\"Currently the survey protocol is operational and works as follows:\",\"1. Companies create surveys, select a token, and allocate a total budget and participation reward.\",\"2. The DApp lists the surveys and allows participation based on the parameters of each survey.\",\"3. Users participate in surveys and in return receive tokens directly to their wallet.\",\"However, not only companies can create surveys, anyone can create content that is targeted to everyone or only to certain users.\"]",
     "faq_question_7": "What wallets are INC compliant?",
-    "faq_response_7": [
-        "INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. Using MATIC to pay for gas, INC tokens can be sent and received using any ERC20 compliant wallet."
-    ],
+    "faq_response_7": "[\"INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. Using MATIC to pay for gas, INC tokens can be sent and received using any ERC20 compliant wallet.\"]",
     "faq_question_8": "Is INC an ERC20 token?",
-    "faq_response_8": [
-        "Yes, INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. INC tokens can be sent and received using any ERC20 compliant wallet."
-    ],
+    "faq_response_8": "[\"Yes, INC is a token built on <b>Polygon</b> and fully <b>ERC20</b> compliant. INC tokens can be sent and received using any ERC20 compliant wallet.\"]",
     "faq_question_9": "How can I get INC?",
-    "faq_response_9": [
-        "During the initial offering, you can get INC tokens from our survey platform <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>."
-    ],
+    "faq_response_9": "[\"During the initial offering, you can get INC tokens from our survey platform <a target='_blanck' href='https://survey.inctoken.org'>survey.inctoken.org</a>.\"]",
     "faq_question_10": "Where can I trade INC?",
-    "faq_response_10": [
-        "During the initial offering, the INC token cannot be exchanged for other cryptocurrencies.",
-        "After the initial offering is over, proposals will be created to provide liquidity on decentralized exchanges such as Uniswap or Sushiswap.",
-        "Next, we will start the listing process on centralized exchanges like Binance & Coinbase."
-    ],
+    "faq_response_10": "[\"During the initial offering, the INC token cannot be exchanged for other cryptocurrencies.\",\"After the initial offering is over, proposals will be created to provide liquidity on decentralized exchanges such as Uniswap or Sushiswap.\",\"Next, we will start the listing process on centralized exchanges like Binance & Coinbase.\"]",
     "faq_question_11": "Can INC be mined?",
-    "faq_response_11": [
-        "Yes, but the mint() method can only be called once a year and cannot exceed 10% of the total supply. As long as the community approves the proposed operation by voting."
-    ],
+    "faq_response_11": "[\"Yes, but the mint() method can only be called once a year and cannot exceed 10% of the total supply. As long as the community approves the proposed operation by voting.\"]",
     "faq_question_12": "Why is onlyOwner used in the code?",
-    "faq_response_12": [
-        "onlyOwner is a modifier that restricts access to the function to the owner of the contract, in this case the owner of INC is the governance contract. Therefore, developers cannot run any code without creating proposals and submitting them to community votes.",
-        "This modifier could be called something else but onlyOwner is the most used since it comes from the standard created by OpenZeppelin."
-    ],
+    "faq_response_12": "[\"onlyOwner is a modifier that restricts access to the function to the owner of the contract, in this case the owner of INC is the governance contract. Therefore, developers cannot run any code without creating proposals and submitting them to community votes.\",\"This modifier could be called something else but onlyOwner is the most used since it comes from the standard created by OpenZeppelin.\"]",
     "faq_question_13": "Where are the initial offering funds raised?",
-    "faq_response_13": [
-        "The funds of the initial offer are collected in the governance contract and a vote is needed to move them."
-    ],
+    "faq_response_13": "[\"The funds of the initial offer are collected in the governance contract and a vote is needed to move them.\"]",
     "sorry_we_havent_found_anything": "Sorry, we haven't found anything.",
     "launch_app": "Launch App",
     "tokenomics": "Tokenomics",
     "percent_supply": "% of supply",
     "total_inc": "Total INC",
     "description": "Description",
-    "tokenomic_1": [
-        "30", "DAO Tokens", "Proposals will be created in the governance protocol to allocate a part to the initial offer and others to the listing on exchanges."
-    ],
-    "tokenomic_2": [
-        "45", "DAO Locked Tokens", "Unlocking is progressive and is completed in 3 years."
-    ],
-    "tokenomic_3": [
-        "25", "Contributors & Marketing", "For the founding team, collaborators and marketing."
-    ],
-    "tokenomic_4": [
-        "100", "Total Supply", ""
-    ],
+    "tokenomic_1": "[\"30\",\"DAO Tokens\",\"Proposals will be created in the governance protocol to allocate a part to the initial offer and others to the listing on exchanges.\"]",
+    "tokenomic_2": "[\"45\",\"DAO Locked Tokens\",\"Unlocking is progressive and is completed in 3 years.\"]",
+    "tokenomic_3": "[\"25\",\"Contributors & Marketing\",\"For the founding team, collaborators and marketing.\"]",
+    "tokenomic_4": "[\"100\",\"Total Supply\",\"\"]",
     "docs": "Docs"
 }
