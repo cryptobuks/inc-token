@@ -58,4 +58,12 @@ export abstract class BasePageComponent implements OnInit, OnDestroy {
   scrollToRef(elementRef: ElementRef) {
     this.scrollToElement(elementRef?.nativeElement);
   }
+
+  loadScript(id: string, src: string) {
+    if (document.getElementById(id)) return;
+    let js = document.createElement("script");
+    js.id = id;
+    js.src = src;
+    this.element.nativeElement.appendChild(js);
+  }
 }

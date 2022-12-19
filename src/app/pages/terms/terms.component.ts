@@ -15,6 +15,7 @@ export class TermsComponent extends BasePageComponent {
   }
 
   onInit(): void {
+    this.loadScript("termly-jssdk", "https://app.termly.io/embed-policy.min.js");
   }
 
   onDestroy(): void {
